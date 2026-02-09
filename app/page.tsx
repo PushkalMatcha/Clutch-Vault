@@ -44,14 +44,7 @@ export function LocalFooter() {
                   Tournaments
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/leaderboard"
-                  className="text-muted-foreground hover:text-neon-green"
-                >
-                  Leaderboard
-                </Link>
-              </li>
+
               <li>
                 <Link
                   href="/profile"

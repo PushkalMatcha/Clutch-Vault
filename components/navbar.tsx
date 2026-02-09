@@ -181,12 +181,7 @@ export function Navbar({ isLoggedIn = false }: { isLoggedIn?: boolean }) {
                       </Link>
                     </li>
 
-                    <li>
-                      <Link href="/settings" className="flex items-center gap-2 px-4 py-2 text-sm text-white hover:bg-steel-gray">
-                        <Settings className="h-4 w-4" />
-                        Settings
-                      </Link>
-                    </li>
+
                     <li>
                       <Link href="/inbox" className="flex items-center gap-2 px-4 py-2 text-sm text-white hover:bg-steel-gray">
                         <Mail className="h-4 w-4" />
@@ -282,11 +277,7 @@ export function Footer({ isLoggedIn = false }: { isLoggedIn?: boolean }) {
                     About
                   </Link>
                 </li>
-                <li>
-                  <Link href="/contact" className="text-muted-foreground hover:text-neon-green">
-                    Contact
-                  </Link>
-                </li>
+
                 <li>
                   <Link href="/privacy" className="text-muted-foreground hover:text-neon-green">
                     Privacy
